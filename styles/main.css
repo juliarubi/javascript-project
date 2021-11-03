@@ -54,6 +54,16 @@ p{
   margin-bottom: 1rem;
 }
 
+footer {
+  background: #F663BB;
+  padding: 1rem;
+  margin:0;
+}
+
+footer p {
+  text-align: center;
+}
+
 #rose {
   margin-top: 2rem;
   margin-bottom: 2rem;
