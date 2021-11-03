@@ -1,0 +1,89 @@
+html {
+    font-size: 110%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+* {
+    box-sizing: inherit; /* keep */
+}
+/* you may add to or change the body rule */
+body {
+    font-family: Calibri, Arial, sans-serif;
+    color: #fff;
+    background: #F6AEBB;
+    margin: 4rem;
+}
+
+div {
+  border: 1px solid #999;
+  padding: 1rem;
+  align-content: center;
+  margin: auto;
+  background: #F663BB;
+  max-width: 500px;
+}
+
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+}
+
+header{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+}
+
+article{
+  margin: auto;
+  text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #82E8FF;
+}
+
+p{
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+#rose {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#rotate{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.rotate-right {
+  transform: rotate(10deg);
+}
+
+.rotate-left {
+  transform: rotate(-10deg);
+}
+
+
+@media screen and (max-width: 790px) {
+  body {
+    margin: 1rem;
+  }
+  header{
+    margin: 0;
+  }
+  article {
+    width: 100%;
+  }
+  p{
+    width: 100%;
+  }
+}
